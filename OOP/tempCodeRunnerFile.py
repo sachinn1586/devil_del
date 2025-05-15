@@ -1,17 +1,35 @@
-#static method
-class explain:
-    name= "Ajaa\y"
-    age=121
-    type="!221"
+# #Inheritance allows us to define a class that inherits all the methods and properties from another class.
+# class A:
+
+
+#     def __init__(self,name):
+#         self.name = name
+        
+        
+#     def speak(self):
+#         pass
     
     
-    def display(self):
-        print(f"the age type is {self.type}")
-        
-    def greet(n):
-        print("Hello")
+# class B(A):
+#     def speak(self):
+#         print(f"Hello {self.name}")
         
         
-c=explain()
-c.display()
-c.greet()
+# b = B("sachin")
+# b.speak()
+
+
+#single inheritance
+class A:
+    def __init__(self,name):
+        self.name = name
+        
+class B(A):
+    def __init__(self,name,age):
+        super().__init__(name)
+        self.age = age
+
+
+c= B("Sachin",20)
+print(c.name)
+print(c.age)
