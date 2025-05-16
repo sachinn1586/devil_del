@@ -12,7 +12,7 @@ print(c.show())
 
 class A:
     
-    a =232
+    a =23
     @classmethod
     def show(cls):
         return f"the value are {cls.a}"
@@ -20,3 +20,6 @@ class A:
     
 c=A()
 print(c.show())
+
+
+#classmethod - - You want to access or modify class-level data.

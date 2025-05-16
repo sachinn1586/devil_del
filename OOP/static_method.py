@@ -1,20 +1,20 @@
+# static method which does not any arguments of object
 #static method which does not any arguments of object
-# class Student:
-#     school="qwerty"
-#     age = 20    
+class Student:
+    school="qwerty"
+    age = 20    
     
-#     @staticmethod
-#     def name():
-#         print("Ajaay ka bhaiya ")
+    @staticmethod
+    def name():
+        print("Ajaay ka bhaiya ")
         
-#     def __init__(self):
-#         print("Constructor is called dunder")    
+    def __init__(self):
+        print("Constructor is called dunder")    
         
-# c = Student()
-# c.name()        
+c = Student()
+c.name()        
     
 #__init__ is a constructor which is called when an object is created
-#static method which does not any arguments of object
 class Student:
     school="qwerty"
     age = 20
